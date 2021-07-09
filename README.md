@@ -20,9 +20,10 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://user-images.githubusercontent.com/49384703/125144291-fefa9d80-e0e2-11eb-8e31-2a85145d4475.gif" width=250><br>
 
 ### Notes
-For this project, pods were a necessity to grab the images of movie posters from [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Table views were also required to properly display the cells of movie titles in Flixy, and figuring out how to use them was the main purpose of this app. Tables are common in many apps, and are used for various purposes, especially in popular social media apps (stories in Facebook, Twitter threads, etc.). Understanding how to recycle used cells was an interesting topic, and saved a lot of memory in Flixy's runtime.
+
+For this project, pods were also a necessity to grab the images of movie posters from [The Movie Database API](http://docs.themoviedb.apiary.io/#). AlamofireImage had to be installed as a dependency, and a workspace had to be created through terminal. Understanding how to do so was rudimentary, but the bigger concept was understanding how to extend this knowledge outside the scope of Flixy.

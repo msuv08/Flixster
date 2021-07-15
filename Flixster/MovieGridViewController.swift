@@ -16,6 +16,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         collectionView.delegate = self
         collectionView.dataSource = self
         
@@ -67,14 +68,26 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         return cell
     }
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        print("Loading up suphero details screen")
+        
+        // Find the selected movie
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+
+
+        // Pass the selected movie to the details view controller
+        let detailsViewController = segue.destination as! SuperheroDetailViewController
+        detailsViewController.movie = movie
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }

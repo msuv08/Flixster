@@ -2,8 +2,6 @@
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
-
 ## Flix Part 2
 
 ### User Stories
@@ -25,7 +23,7 @@ For Part 2, Flix had to incorporate a second tab, as well as a detailed view of 
 
 Another component was the new tabbar navigation system; a `Superhero` tab was added on the right, with the `Now Playing` movies tab on the left. The superhero tab includes the UIGridViewCollection, with a list of movies similar to `Black Widow`. To achieve this similar movie request, the [Get Similar](https://developers.themoviedb.org/3/movies/get-similar-movies) endpoint was used from [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-All credit attributed to [<img src="https://user-images.githubusercontent.com/49384703/125910420-674ff360-46ca-4dd9-b7ab-8fe195d92b7e.png" height=15>](https://developers.themoviedb.org/3/getting-started/introduction)
+All credit attributed to [<img src="https://user-images.githubusercontent.com/49384703/125910420-674ff360-46ca-4dd9-b7ab-8fe195d92b7e.png" height=15>](https://developers.themoviedb.org/3/getting-started/introduction).
 
 ---
 

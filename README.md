@@ -2,24 +2,21 @@
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction).
 
-## Flix Part 2
+## Flix v2.0 Release
 
-### User Stories
+### Features
 
-#### REQUIRED (10pts)
-- [X] (5pts) User can tap a cell to see more details about a particular movie.
-- [X] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
-
-#### BONUS
-- [X] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+#### Implemented
+- [X] User can tap a cell to see more details about a particular movie.
+- [X] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [X] User can tap a poster in the collection view to see a detail screen of that movie.
 
 ### App Walkthrough GIF
 
 <img src="https://user-images.githubusercontent.com/49384703/125909354-00450d59-4fba-477a-9b78-4004f66338f1.gif" width=250><br>
 
 ### Notes
-For Part 2, Flix had to incorporate a second tab, as well as a detailed view of movies after a poster is clicked on. To accomplish this, cells were used, and segues passed data on to a new view controller, which appears modally with full details on the movie.
+For v2, Flix had to incorporate a second tab, as well as a detailed view of movies after a poster is clicked on. To accomplish this, cells were used, and segues passed data on to a new view controller, which appears modally with full details on the movie.
 
 Another component was the new tabbar navigation system; a `Superhero` tab was added on the right, with the `Now Playing` movies tab on the left. The superhero tab includes the UIGridViewCollection, with a list of movies similar to `Black Widow`. To achieve this similar movie request, the [Get Similar](https://developers.themoviedb.org/3/movies/get-similar-movies) endpoint was used from [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
@@ -27,18 +24,15 @@ All credit attributed to [<img src="https://user-images.githubusercontent.com/49
 
 ---
 
-## Flix Part 1
+## Flix v1.0
 
-### User Stories
+### Features
 
-#### REQUIRED (10pts)
-- [X] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [X] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [X] (3pts) User can view the movie poster image for each movie.
+#### Implemented
+- [X] User sees an app icon on the home screen and a styled launch screen.
+- [X] User can view and scroll through a list of movies now playing in theaters.
+- [X] User can view the movie poster image for each movie.
 
-#### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
 
